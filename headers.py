@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# ShubhamWebScript is a Web Applications Security Scanner
-# By Shubham Kumar Sinha - hinhiteachcomputer @gmail.com
 import urllib
 import re
 import time
