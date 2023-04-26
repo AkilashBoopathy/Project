@@ -9,19 +9,12 @@ from vulnz import *
 
 print ga.green+'''
             
- _____ _           _     _                       _   __                             _____ _       _           
-/  ___| |         | |   | |                     | | / /                            /  ___(_)     | |          
-\ `--.| |__  _   _| |__ | |__   __ _ _ __ ___   | |/ / _   _ _ __ ___   __ _ _ __  \ `--. _ _ __ | |__   __ _ 
- `--. \ '_ \| | | | '_ \| '_ \ / _` | '_ ` _ \  |    \| | | | '_ ` _ \ / _` | '__|  `--. \ | '_ \| '_ \ / _` |
-/\__/ / | | | |_| | |_) | | | | (_| | | | | | | | |\  \ |_| | | | | | | (_| | |    /\__/ / | | | | | | | (_| |
-\____/|_| |_|\__,_|_.__/|_| |_|\__,_|_| |_| |_| \_| \_/\__,_|_| |_| |_|\__,_|_|    \____/|_|_| |_|_| |_|\__,_|                                                                                                                                              
+                                                                                                                                         
                                                     
         ****************************************************************************
-        *| "ShubhamWebScript" Web Applications Security Scanner                    *
-        *|  By Shubham Kumar Sinha - hinhiteachcomputer @gmail.com                 *
+        *| "WebScript" Web Applications Security Scanner                    *
         *|  This Version Supports Remote Code/Command Execution, XSS               *
         *|  And SQL Injection.                                                     *
-	*|  More Details: https://www.youtube.com/channel/UCo20vtvL8D3nRjuZq0S5yVg *
         ****************************************************************************
         '''+ga.end
 
