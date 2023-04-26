@@ -41,3 +41,4 @@ def headers_reader(url):
         sig = "x-powered-by"
         if sig in item[0]:
             print(ga.green+ " [!] " + str(item).strip() + ga.end)
+
