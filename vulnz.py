@@ -35,4 +35,4 @@ def main_function(url, payloads, check):
                     checker = re.findall(check, line.decode())
                     if len(checker) != 0:
                         print(ga.red + " [*] Payload Found . . ." + ga.end)
-                        print(ga.red + " [*] Payload: ", payload + ga.end
+                        print(ga.red + " [*] Payload: ", payload + ga.end)
