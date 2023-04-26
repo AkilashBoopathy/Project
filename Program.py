@@ -29,8 +29,9 @@ def urls_or_list(): # user wants to scan a single URL or a list of URLs.
             error_based_sqli_func(url) 
         # If the URL is not valid, the function prints a warning message and continues to the next URL in the list.
         else:
-            print(ga.red +"\n [Warning] "+ ga.end + ga.bold+"%s"%url +ga.end + ga.red +" is not a valid URL"+ga.end)            
+            print(ga.red +"\n [Warning] "+ ga.end + ga.bold+"%s"%url +ga.end + ga.red +" is not a valid URL"+ga.end)                
             print(ga.red +" [Warning] You should write a Full URL .e.g http://site.com/page.php?id=value \n"+ ga.end)
+
             exit()
     elif url_or_list =="2":
         urls_list = input(ga.green+" [!] Enter the list file name .e.g [list.txt]: "+ga.end)
